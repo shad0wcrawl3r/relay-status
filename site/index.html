@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Relay status</title>
+  <meta name="description" content="Build and service status for Relay, a desktop workbench for projects, writing and terminals.">
+  <link rel="icon" href="/icon.png">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="/icon.png" alt="" width="40" height="40">
+      <div>
+        <h1>Relay</h1>
+        <p>Desktop workbench for projects, writing and terminals</p>
+      </div>
+    </header>
+
+    <section class="banner" id="banner" data-state="unknown">
+      <span class="dot"></span>
+      <div>
+        <h2 id="headline">Checking status…</h2>
+        <p id="subline">Loading the latest build.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Builds</h3>
+      <ul class="rows" id="platforms">
+        <li><span>macOS</span><span class="pill" data-state="unknown">Unknown</span></li>
+        <li><span>Windows</span><span class="pill" data-state="unknown">Unknown</span></li>
+        <li><span>Linux</span><span class="pill" data-state="unknown">Unknown</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Services</h3>
+      <ul class="rows">
+        <li><span>Buffer sign-in callback</span><span class="pill" id="callback" data-state="unknown">Unknown</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Release</h3>
+      <dl>
+        <dt>Latest version</dt><dd id="version">Not released yet</dd>
+        <dt>Last build</dt><dd id="updated">Unknown</dd>
+        <dt>Commit</dt><dd id="commit" class="mono">Unknown</dd>
+      </dl>
+    </section>
+
+    <footer>Relay is an independent project, not an official product of any service it connects to.</footer>
+  </main>
+  <script src="/status.js"></script>
+</body>
+</html>
