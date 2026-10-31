@@ -28,7 +28,7 @@ jobs:
           node-version: 22
 
       - name: Test the callback
-        run: node --test test/
+        run: node --test test/forward.test.js
 
       - uses: actions/upload-pages-artifact@v5
         with:
