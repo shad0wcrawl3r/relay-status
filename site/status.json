@@ -1,1 +1,19 @@
-{"updated_at":"2026-10-29T09:54:00Z","commit":"b94df5c","version":null,"platforms":[{"name":"Linux","conclusion":"success"},{"name":"Windows","conclusion":"success"},{"name":"macOS","conclusion":"success"}]}
+{
+  "updated_at": "2026-11-05T05:33:41Z",
+  "commit": "c8e7f66",
+  "version": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}",
+  "platforms": [
+    {
+      "name": "Linux",
+      "conclusion": "success"
+    },
+    {
+      "name": "macOS",
+      "conclusion": "success"
+    },
+    {
+      "name": "Windows",
+      "conclusion": "success"
+    }
+  ]
+}
