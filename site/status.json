@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-05T09:34:52Z",
-  "commit": "b2ba604",
-  "version": null,
-  "release_url": null,
+  "updated_at": "2026-11-05T09:43:29Z",
+  "commit": "89a5d8f",
+  "version": "v0.0.1",
+  "release_url": "https://github.com/shad0wcrawl3r/relay/releases/tag/v0.0.1",
   "platforms": [
     {
-      "name": "macOS",
+      "name": "Windows",
       "conclusion": "success"
     },
     {
-      "name": "Windows",
+      "name": "macOS",
       "conclusion": "success"
     },
     {
