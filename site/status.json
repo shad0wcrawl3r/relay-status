@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-05T05:33:41Z",
-  "commit": "c8e7f66",
-  "version": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}",
+  "updated_at": "2026-11-05T06:50:12Z",
+  "commit": "ae6e97f",
+  "version": null,
   "platforms": [
     {
-      "name": "Linux",
+      "name": "macOS",
       "conclusion": "success"
     },
     {
-      "name": "macOS",
+      "name": "Linux",
       "conclusion": "success"
     },
     {
