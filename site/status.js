@@ -38,7 +38,17 @@ function render(status) {
   else if (failing.length === 0) setBanner("ok", "All builds passing", `Last build ${ago(status.updated_at)}.`);
   else setBanner("bad", "Build problem", `${failing.map((platform) => platform.name).join(", ")} did not pass.`);
 
-  document.getElementById("version").textContent = status.version ?? "Not released yet";
+  const version = document.getElementById("version");
+  // Only a GitHub release page is linked; anything else stays plain text.
+  if (status.version && /^https:\/\/github\.com\/shad0wcrawl3r\/relay\/releases\//.test(status.release_url ?? "")) {
+    const link = document.createElement("a");
+    link.href = status.release_url;
+    link.rel = "noopener";
+    link.textContent = status.version;
+    version.replaceChildren(link);
+  } else {
+    version.textContent = status.version ?? "Not released yet";
+  }
   document.getElementById("updated").textContent = ago(status.updated_at);
   document.getElementById("commit").textContent = status.commit;
 }

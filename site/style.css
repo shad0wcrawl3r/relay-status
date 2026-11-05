@@ -90,3 +90,9 @@ footer { border-top: 1px solid var(--hairline); color: var(--dim); font-size: 12
 [hidden] { display: none; }
 
 @media (max-width: 480px) { main { padding-top: 36px; } }
+
+dd a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
