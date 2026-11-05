@@ -96,3 +96,7 @@ dd a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+footer p { margin: 0; }
+footer .links { margin-bottom: 6px; }
+footer a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
