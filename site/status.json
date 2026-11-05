@@ -1,20 +1,7 @@
 {
-  "updated_at": "2026-11-05T09:43:29Z",
-  "commit": "89a5d8f",
+  "updated_at": "2026-11-05T13:25:08Z",
+  "commit": "eece155",
   "version": "v0.0.1",
   "release_url": "https://github.com/shad0wcrawl3r/relay/releases/tag/v0.0.1",
-  "platforms": [
-    {
-      "name": "Windows",
-      "conclusion": "success"
-    },
-    {
-      "name": "macOS",
-      "conclusion": "success"
-    },
-    {
-      "name": "Linux",
-      "conclusion": "success"
-    }
-  ]
+  "platforms": []
 }
