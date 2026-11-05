@@ -1,24 +1,20 @@
 {
-  "updated_at": "2026-11-05T09:06:42Z",
-  "commit": "c100760",
+  "updated_at": "2026-11-05T09:12:42Z",
+  "commit": "ed5ad3c",
   "version": null,
   "release_url": null,
   "platforms": [
     {
+      "name": "Windows",
+      "conclusion": "success"
+    },
+    {
       "name": "Linux",
-      "conclusion": "cancelled"
+      "conclusion": "success"
     },
     {
       "name": "macOS",
       "conclusion": "success"
-    },
-    {
-      "name": "Windows",
-      "conclusion": "cancelled"
-    },
-    {
-      "name": "Draft",
-      "conclusion": "cancelled"
     }
   ]
 }
